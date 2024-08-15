@@ -1,0 +1,25 @@
+.grid-button {
+  width: calc(33.333% - 50px);
+  min-width: 200px;
+  height: 70px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  margin: 1% 1%;
+}
+
+.grid-container {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.grid-section {
+  width: 100%;
+  margin-bottom: 30px;
+}

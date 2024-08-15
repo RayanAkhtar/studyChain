@@ -1,0 +1,33 @@
+.backtrack {
+  display: flex;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #007bff;
+  padding-left: 30px;
+}
+
+.backtrack-item {
+  display: flex;
+  align-items: center;
+}
+
+.backtrack-item a {
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s;
+}
+
+.backtrack-item a:hover {
+  color: #0056b3;
+}
+
+.backtrack-separator {
+  margin: 0 8px;
+  color: #6c757d;
+}
+
+.backtrack-last {
+  color: #6c757d;
+  font-weight: bold;
+}

@@ -1,0 +1,1 @@
+MATCH (title:Subject)-[rel:IS_USED_IN*]->(subject:Subject{name:'integration'})RETURN title, rel, subject;`

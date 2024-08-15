@@ -1,0 +1,1 @@
+MATCH (n) DETATCH DELETE (n)
